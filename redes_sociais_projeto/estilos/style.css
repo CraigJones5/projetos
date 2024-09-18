@@ -13,7 +13,7 @@ html, body {
 }
 
 body {
-    background: url(images/fundo-madeira.jpg) no-repeat top center;
+    background: url(../images/fundo-madeira.jpg) no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -31,7 +31,7 @@ section#telefone {
 
     height: 627px;
     width: 311px;
-    background: url(images/frame-iphone.png) no-repeat;
+    background: url(../images/frame-iphone.png) no-repeat;
 }
 
 iframe#tela {
@@ -60,3 +60,5 @@ section#redes-sociais img:hover {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
     transition: transform 0.5s, border 0.7s; /*Anotar*/
 }
+
+/* Anotar -> ::-webkit-scrollbar */
